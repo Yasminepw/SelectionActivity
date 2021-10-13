@@ -4,7 +4,7 @@
     <string name="title_display_er">Affichage</string>
     <string name="selection_of_food">Sélection de nourriture.</string>
     <string name="textview">Texte</string>
-    <string name="image_chosen_from_previous_activity">Image choisie parmi l\'activité précédente.</string>
+    <string name="image_chosen_from_previous_activity">Image choisie parmi l\'activité précédente</string>
 
     <string-array name="food_descriptions">
         <item>Burger</item>
