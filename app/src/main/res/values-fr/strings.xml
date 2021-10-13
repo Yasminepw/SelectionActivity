@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sélecteur de nourriture mignon</string>
+    <string name="title_selector">Sélection</string>
+    <string name="title_display_er">Affichage</string>
+    <string name="selection_of_food">Sélection de nourriture.</string>
+    <string name="textview">Texte</string>
+    <string name="image_chosen_from_previous_activity">Image choisie parmi l\'activité précédente</string>
+    <string name="click_an_image">Cliquez sur une image ci-dessous pour voir</string>
+
+    <string-array name="food_descriptions">
+        <item>Burger</item>
+        <item>Jambon</item>
+        <item>Crème glacée</item>
+        <item>Saisir</item>
+        <item>Crêpe</item>
+        <item>Pizza</item>
+        <item>Ramen</item>
+        <item>Côtes</item>
+        <item>Sauce</item>
+        <item>Brochette</item>
+        <item>Sushi</item>
+        <item>Tacos</item>
+    </string-array>
+</resources>
