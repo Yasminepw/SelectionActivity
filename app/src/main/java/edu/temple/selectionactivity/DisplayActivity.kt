@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import edu.temple.selectionactivity.MainActivity.Companion.IMAGE_OBJECT
 
 
 class DisplayActivity : AppCompatActivity() {
@@ -11,14 +12,16 @@ class DisplayActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_display)
 
-        title = getString(R.string.title_display_er)
+        // Set title of activity.
+        supportActionBar?.title = getString(R.string.title_display_er)
         val textView = findViewById<TextView>(R.id.displayerTextView)
         val imageView = findViewById<ImageView>(R.id.displayerImageView)
-        val position = intent.getIntExtra(POSITION, 0)
+        val imageObject = intent.getParcelableExtra<Images>(IMAGE_OBJECT)
 
-        // Set both views to the corresponding clicked item from image list.
-        textView.text = photoList()[position].title
-        imageView.setImageResource(photoList()[position].resourceId)
+        if (imageObject != null) {
+            textView.text = imageObject.title.toString()
+            imageView.setImageResource(imageObject.resourceId)
+        }
 
     }
 }
