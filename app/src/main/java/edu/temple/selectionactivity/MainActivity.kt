@@ -23,20 +23,5 @@ import androidx.recyclerview.widget.RecyclerView
             val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
             recyclerView.layoutManager = GridLayoutManager(this, 3)
 
-            // Set adapter and click listener.
-            val adapter = ImageAdapter(photoList(resources)) {
-                    //position -> myOnClick(position)
-            }
-
-            recyclerView.adapter = adapter
         }
-
-//        private fun myOnClick(position: Int) {
-//            val intent = Intent(this, DisplayActivity::class.java).apply {
-//                putExtra(IMAGE_OBJECT, photoList(resources)[position])
-//            }
-//            startActivity(intent)
-//        }
-
-
     }
