@@ -7,6 +7,7 @@
     <string name="textview">Texte</string>
     <string name="image_chosen_from_previous_activity">Image choisie parmi l\'activité précédente</string>
     <string name="click_an_image">Cliquez sur une image ci-dessous pour voir</string>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
 
     <string-array name="food_descriptions">
         <item>Burger</item>
